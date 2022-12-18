@@ -1,0 +1,37 @@
+/* navbar section */
+
+.navbar {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navbar ul li {
+  font-size: 10px;
+}
+
+/* home section */
+#home h1 {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+#home {
+  height: 356px;
+}
+#home button {
+  top: 0px;
+  font-size: 10px;
+}
+
+#home::before {
+  height: 419px;
+}
+#home p {
+  font-size: 12px;
+}
+
+/* our services */
+
+#services .container {
+  flex-wrap: wrap;
+}

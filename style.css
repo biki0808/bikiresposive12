@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+/* Navbar Section */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.navbar::before {
+  content: " ";
+  background-color: rgb(12, 12, 12);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 1;
+}
+
+/* navbar List Styling */
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+.navbar ul li a {
+  padding: 10px;
+  font-size: 22px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.navbar ul li a:hover{
+  background-color: black;
+  color: azure;
+  border-radius: 15px;
+}
+
+/* Navbar logo img */
+.logo img {
+  height: 46px;
+  margin: 5px;
+  padding: 5px;
+}
+
+/* home section */
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 427px;
+  color: #000000;
+}
+
+#home::before {
+  content: "";
+  background: url("bg1.png") no-repeat center center/cover;
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.89;
+}
+
+#home h1 {
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+
+#home p {
+  text-align: center;
+}
+
+#home button {
+  font-size: 20px;
+  color: aliceblue;
+  background-color: black;
+  border-radius: 32px;
+  padding: 8px;
+  margin: 10px;
+  position: relative;
+  top: 60px;
+}
+
+#home button:hover{
+  background-color: white;
+  color: #181D31;
+}
+
+/* Services Section */
+
+#services h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+#services .container img {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+.box {
+  border: 3px solid rgb(16, 15, 15);
+  max-height: 600px;
+  width: 400px;
+  margin: 30px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#services .container {
+  display: flex;
+  justify-content: center;
+}
+
+/* client section */
+#clients {
+  background: url("bg2.jpg") no-repeat center center/cover;
+}
+
+#clients h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+#clients img {
+  width: 150px;
+  margin: 55px;
+}
+
+#clients div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* form section */
+#formsection {
+  background: url("bg3.jpg") no-repeat center center/cover;
+  display: flex;
+}
+.formbox {
+  margin: 0 auto;
+  border-radius: 20px;
+  height: 400px;
+  width: 300px;
+}
+
+#formsection form {
+  text-align: center;
+}
+
+#formsection form div {
+  font-family: "Poppins", sans-serif;
+  background-color: aqua;
+  padding: 4px;
+  margin: 16px;
+  border-radius: 17px;
+}
+
+#formsection .formbox4 textarea {
+  border-radius: 13px;
+}
+
+#formsection input {
+  border-radius: 10px;
+}
+
+/* footer section */
+#footer {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(68, 65, 65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer a {
+  margin: 10px;
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 25px;
+}
